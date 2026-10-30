@@ -2,9 +2,9 @@
 
 **Every colour has a name.** A small, native color picker (eyedropper) for GNOME on Linux, Wayland and X11. Click the eyedropper, click anything on your screen, and Colour Picker tells you what that colour is called, then lets you tune it and copy it as HEX, RGB, HSL or CMYK.
 
-[![Colour Picker, a GNOME color picker for Linux, showing the colour Salmon with HSV sliders, shades and HEX, RGB, HSL and CMYK values](docs/poster.png)](docs/ColourPicker_sizzle_v1.0.0.mp4)
+[![Colour Picker, a GNOME color picker for Linux, in light and dark theme, naming the colour Macaroni And Cheese and showing it as HEX, RGB, HSL and CMYK](docs/poster.png)](docs/ColourPicker_sizzle_v1.0.0.mp4)
 
-*Click the image for the 33-second video.*
+*Click the image for the 36-second video.*
 
 ## What it does
 
@@ -13,8 +13,10 @@
 - **Named the way you see it.** The nearest name is found by perceived difference (CIE94 in the CIELAB colour space), not by raw RGB distance, so the name matches what your eye reports.
 - **Tune it.** Hue, saturation and value sliders with live gradient tracks.
 - **Lighter or darker.** A row of nine evenly stepped shades. Click one to use it.
-- **Every format.** HEX, RGB, HSL and CMYK. Type into any of them, copy any of them with one click.
+- **Copy it your way.** One click copies the colour in the format you need: HEX (`#E9B949`) for the web and design apps, RGB (`rgb(233, 185, 73)`) or HSL (`hsl(42, 78%, 60%)`) for CSS and code, CMYK (`cmyk(0%, 21%, 69%, 9%)`) for print.
+- **Paste to convert.** Paste or type a colour into any of the four fields and the others update, so it doubles as a quick colour converter.
 - **History.** Your last 14 colours, one click away.
+- **Light or dark.** Follows your desktop's style.
 
 ## Install
 
