@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- GtkApplication auto-adds /io/github/droidstreamer/ColourPicker/icons to the icon theme,
+     so the embedded PNG is available by icon name "io.github.droidstreamer.ColourPicker". -->
+<gresources>
+  <gresource prefix="/io/github/droidstreamer/ColourPicker/icons/256x256/apps">
+    <file alias="io.github.droidstreamer.ColourPicker.png">../../Icons/colourpicker.png</file>
+  </gresource>
+</gresources>

@@ -1,0 +1,15 @@
+[package]
+name = "colourpicker"
+description = "Native GNOME colour picker: pick any pixel on screen, get its nearest name, fine-tune and copy HEX, RGB, HSL and CMYK"
+version = "1.0.0"
+edition = "2021"
+authors = ["Droid"]
+publish = false
+
+# Exact pins, the same versions Diskopium already uses; Cargo.lock pins the rest.
+[dependencies]
+gtk = { package = "gtk4", version = "=0.11.5", features = ["v4_22"] }
+adw = { package = "libadwaita", version = "=0.9.2", features = ["v1_9"] }
+
+[profile.release]
+strip = true
